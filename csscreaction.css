@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:rgba(71, 58, 58, 0.212);
+    color:black;
+
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+fieldset{
+    box-shadow: 3px 10px 10px 5px skyblue;
+    
+    height: fit-content;
+    width: fit-content;
+text-align: center;
+padding:  px 100px 0px 50px;
+margin-left:700px;
+
+color:rgba(165, 42, 42, 0.466);
+font-style: italic;
+font-size: large;
+
+
+} 
+#input{
+    margin-left: 50px;
+    color: #fff;
+    background-color:brown;
+    
+}
+#input :hover{
+    color: black;
+    background-color:white;
+    letter-spacing: 3px;
+}
+.social-login {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-login p {
+    margin-bottom: 10px;
+}
+
+.google-btn, .facebook-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.google-btn {
+    background-color: #dd4b39; /* Couleur Google */
+}
+
+.facebook-btn {
+    background-color: #3b5998; /* Couleur Facebook */
+}
+.bachground_de_compte {
+    padding-top:50px ;
+    background-image: url('fashion.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+  
+    
+}
+.bachground_de_compte h1{
+    text-align: center;
+    color:brown;
+}

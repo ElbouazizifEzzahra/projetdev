@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-GLhlTQ8iNl4DkYRgey8H+LcRqzUc4PIp1bY+RUuLqExp3S9Rv1e5t5Uq1F1FgUgM" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+     <title>Vetement</title>
+</head>
+<body>
+    <h1 >ELLES</h1>
+        <header>
+           
+            <div class="icon"><a href="html.html" id="home-icon"><i class="fas fa-home"></i></a>
+            <a href="#" id="cart-icon"><i class="fas fa-shopping-cart" onclick="addToCart('product1', 'Products', 0.00 , 'quantity1')"></i></a>
+  </div>      </header>
+  <ul class="ul1">
+  
+    <li><a style="text-decoration: underline;  color: bisque;" href="vetement.html">Vetement</a></li>
+   <li> <a href="Veste.html">Veste</a></li>
+   <li> <a  href="jeans.html">jeans</a></li>
+   <li> <a href="Chaussures.html">Chaussures</a></li>
+   <li><a  href="robes.html">Robes</a></li>
+   <li><a href="bags.html">Bags</a></li>
+
+
+</ul>
+    
+<h1 style="color:black;padding: 80px 50px 50px 50px; font-family: Georgia, 'Times New Roman', Times, serif;">Vetement</h1>
+
+    <div class="main-content">
+        <div class="product" id="product1">
+            <img src="ELLES/triko1.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">Cool Comfort triko</p>
+            <span class="price">700,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('Cool Comfort Triko', 'Cool Comfort Triko', 700.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLES/triko2.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">Street Chic Triko</p>
+            <span class="price">400,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('Street Chic Triko', 'Street Chic Triko', 400.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLES/triko3.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">Urban Vibes Triko</p>
+            <span class="price">300,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('Urban Vibes Triko', 'Urban Vibes Triko', 300.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLES/triko4.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">Breezy Basics Triko</p>
+            <span class="price">250,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('Breezy Basics Triko', 'Breezy Basics Triko', 250.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLES/triko5.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">Casual Bliss Triko</p>
+            <span class="price">900,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('Casual Bliss Triko', 'Casual Bliss Triko', 900.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLes/triko6.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">Trendy Threads Triko</p>
+            <span class="price">700,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('Trendy Threads Triko', 'Trendy Threads Triko', 700.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLes/triko7.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">Easygoing Elegance Triko</p>
+            <span class="price">600,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('Easygoing Elegance Triko', 'Easygoing Elegance Triko', 600.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+      
+        <div class="product" id="product1">
+            <img src="ELLes/triko2.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">Leisure Luxe Triko</p>
+            <span class="price">700,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('Leisure Luxe Triko', 'Leisure Luxe Triko', 700.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLes/triko4.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">Zen Fusion Triko</p>
+            <span class="price">200,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('Zen Fusion Triko', 'Zen Fusion Triko', 200.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div style="width: 100%;"><h1 style="color:black;padding: 80px 50px 50px 50px; font-family: Georgia, 'Times New Roman', Times, serif;">HODIES</h1>
+        </div>
+        <!--..............................-->
+        <div class="product" id="product1">
+            <img src="ELLes/hodie1.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">FrostFlare Hoodie</p>
+            <span class="price">700,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('FrostFlare Hoodie', 'FrostFlare Hoodie', 700.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLes/hodie2.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">UrbanEclipse Hoodie</p>
+            <span class="price">650,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('UrbanEclipse Hoodie', 'UrbanEclipse Hoodie', 650.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLes/hodie3.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">VelvetVibe Hoodie</p>
+            <span class="price">750,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('VelvetVibe Hoodie', 'VelvetVibe Hoodie', 750.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLes/hodie4.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">CasualCosmic Hoodie</p>
+            <span class="price">500,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('CasualCosmic Hoodie', 'CasualCosmic Hoodie', 500.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLes/hodie5.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">ArcticAura Hoodie </p>
+            <span class="price">800,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('ArcticAura Hoodie', 'ArcticAura Hoodie', 800.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLes/hodie6.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">StreetSnug Hoodie</p>
+            <span class="price">500,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('StreetSnug Hoodie', 'StreetSnug Hoodie', 500.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLes/hodie7.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">ChillChic Hoodie</p>
+            <span class="price">700,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('ChillChic Hoodie', 'ChillChic Hoodie', 700.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLes/hodie8.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">UrbanHaven Hoodie</p>
+            <span class="price">300,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('UrbanHaven Hoodie', 'UrbanHaven Hoodie', 300.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLes/hodie9.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">CozyCraze Hoodie</p>
+            <span class="price">200,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('CozyCraze Hoodie', 'CozyCraze Hoodie', 200.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div style="width: 100%;"><h1 style="color:black;padding: 80px 50px 50px 50px; font-family: Georgia, 'Times New Roman', Times, serif;">TSHIRT</h1>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLes/t1.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">Cotton Comfort</p>
+            <span class="price">700,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('Cotton Comfort', 'Cotton Comfort', 700.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLes/t2.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">Urban Ease</p>
+            <span class="price">710,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('Urban Ease', 'Urban Ease', 710.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLes/t3.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">Casual Canvas</p>
+            <span class="price">500,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('Casual Canvas', 'Casual Canvas', 500.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLes/t4.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">Breezy Basics</p>
+            <span class="price">700,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('Breezy Basics', 'Breezy Basics', 700.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLes/t5.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">StreetStyle Serenity</p>
+            <span class="price">600,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('StreetStyle Serenity', 'StreetStyle Serenity', 600.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLes/t6.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">Pure Bliss Tees</p>
+            <span class="price">700,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('Pure Bliss Tees', 'Pure Bliss Tees', 700.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLes/t7.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">Everyday Elegance</p>
+            <span class="price">800,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('Everyday Elegance', 'Everyday Elegance', 800.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLes/t8.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">Weekend Whisper</p>
+            <span class="price">400,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('Weekend Whisper', 'Weekend Whisper', 400.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="product" id="product1">
+            <img src="ELLes/t9.jpg" alt="Product 1" id="imag">
+            <p style="font-size: x-large;font-weight: 600;">Zen Threads</p>
+            <span class="price">600,00 DH <br><br></span>
+            <input type="number" id="quantity1" value="1" min="1" style="width: 25px;text-align: center;border-radius: 5px;background-color: bisque;">
+            <button onclick="addToCart('Zen Threads', 'Zen Threads', 600.00 , 'quantity1')" style="background-color:  black;color: bisque;border-radius: 5px;">Add</button>
+        </div>
+        <div class="cart" id="cart">
+            <div><h2>Panier</h2>
+           
+
+            <ul id="cart-items"></ul>
+            <div id="total">Total: 0.00 DH</div>
+        </div>
+    </div>
+</body>
+</html>

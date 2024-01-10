@@ -1,0 +1,21 @@
+*{ margin: 0;
+    padding: 0;
+    background-color: rgba(240, 204, 204, 0.349);
+   
+}
+
+h6{
+    display: inline;
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    grid-template-rows: repeat(4.200px);
+    gap: 20px;
+  
+     }
+     img{
+        
+        height: 400px;
+     }
+     

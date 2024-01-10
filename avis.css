@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(196, 125, 186);
+    
+}
+.check{
+    text-align: left;
+    height: 100px;
+}
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input{
+    border-radius: 5px;
+    box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.356);
+}
+
+.avis-client {
+    max-width: 800px;
+    margin:  auto;
+    text-align: center;
+}
+
+.avis {
+    margin-bottom: 10px;
+}
+
+.avis-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.avis-info img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.avis-info p {
+    font-size: 16px;
+    line-height: 1.5;
+}
